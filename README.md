@@ -1,12 +1,41 @@
-# React + Vite
+# CricMania – Interactive Cricket Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live - https://zamcricmania.netlify.app/
 
-Currently, two official plugins are available:
+CricMania is a **dynamic cricket game** built with **React**, featuring interactive gameplay, real-time scoring, and a responsive design. Players can chase random target scores using strategic shot choices, while the app keeps track of runs, wickets, overs, and game progress.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Interactive Gameplay**  
+  Players can choose between two shot types: a safe shot for minimal runs and a lofted shot for higher risk-reward outcomes, including the possibility of getting out.
+
+- **Random Target Scores**  
+  Each game generates a random target score, making each play unique and challenging.
+
+- **Real-Time Dashboard**  
+  Displays current runs, wickets, overs, and target in real time, updating dynamically as the game progresses.
+
+- **Responsive Design**  
+  Built with Bootstrap and custom CSS, featuring a dark sidebar and a beige game area with dynamic run indicators, optimized for desktops, tablets, and mobile devices.
+
+- **Progress Persistence**  
+  Uses React hooks and **local storage** to save and retrieve game progress, allowing players to continue where they left off.
+
+---
+
+## Tech Stack
+
+- **Frontend:** React, Bootstrap, CSS  
+- **State Management:** React Hooks  
+- **Storage:** Local Storage (for game progress)  
+
+---
+
+## Installation
+
+1. **Clone the repository**
+```bash
+git clone https://github.com/mohamedzameer33.git
+cd cricmania
